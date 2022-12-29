@@ -1,0 +1,116 @@
+.cca {
+    color: black;
+    text-align: center;
+    font-size: 35px;
+    font-weight: bold;
+  }
+  .card1 {
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+    background-color: #f2edff;
+    border-radius: 7px;
+    box-shadow: 0px 3px 3px -2px rgb(0 0 0 / 20%),
+      0px 3px 4px 0px rgb(0 0 0 / 14%), 0px 1px 8px 0px rgb(0 0 0 / 12%);
+    transition: box-shadow 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  }
+
+  .acca-section {
+    padding: 20px;
+  }
+  @media screen and (max-width: 576px) {
+    .acca-section {
+      padding-left: 20px;
+    }
+  }
+  .li-items {
+    color: black;
+    font-family: 'Nunito Sans';
+    font-size: 18px;
+    margin: 0px 0px 6px;
+    font-weight: 400;
+    margin-bottom: 10px;
+  }
+  @media screen and (min-width: 576px) {
+    .li-items {
+      font-size: 20px;
+    }
+  }
+  .ul-items {
+    color: black;
+    list-style-type: circle;
+  }
+  hr {
+    width: 120px;
+    height: 10px;
+    border-radius: 30px;
+    background-color: #32127a;
+  }
+  .level-cards {
+    height: 130px;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 5px;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #fff;
+    box-shadow: 0px 3px 3px -2px rgb(0 0 0 / 20%),
+      0px 3px 4px 0px rgb(0 0 0 / 14%), 0px 1px 8px 0px rgb(0 0 0 / 12%);
+    width: 50%;
+    margin: 5px;
+  }
+  .level-h {
+    font-size: 20px;
+    color: black;
+    text-align: center;
+  }
+  .para {
+    color: black;
+    font-size: 14px;
+    margin-left: 10px;
+  }
+  .cards-container1 {
+    margin-top: 30px;
+    width: 100%;
+    display: flex;
+  }
+  @media screen and (max-width: 576px) {
+    .cards-container1 {
+      display: none;
+    }
+  }
+  .enter {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    cursor: pointer;
+  }
+  .cards-container-mobile {
+    width: 100%;
+    display: flex;
+    padding-top: 25px;
+    flex-wrap: wrap;
+  }
+  @media screen and (min-width: 576px) {
+    .cards-container-mobile {
+      display: none;
+    }
+  }
+  .level-cards1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 45%;
+    height: 130px;
+    background-color: #fff;
+    box-shadow: 0px 3px 3px -2px rgb(0 0 0 / 20%),
+      0px 3px 4px 0px rgb(0 0 0 / 14%), 0px 1px 8px 0px rgb(0 0 0 / 12%);
+    margin: 5px;
+  }
+  .enter1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+  }

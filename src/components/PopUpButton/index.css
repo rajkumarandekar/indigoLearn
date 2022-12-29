@@ -1,0 +1,85 @@
+.popup-container1 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 25px;
+    cursor: pointer;
+  }
+  .sign-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+cursor: pointer;
+    font-weight: bold;
+  }
+  .h13 {
+    text-align: center;
+    color: black;
+  }
+  .input1 {
+    margin-left: 25px;
+    width: 80%;
+    font-size: 25px;
+    margin-top: 10px;
+    margin-bottom: 25px;
+    justify-content: center;
+  }
+
+  input {
+    margin-left: 25px;
+
+    padding-top: 15px;
+  }
+  label {
+    font-size: 20px;
+  }
+  .popup-container {
+    display: flex;
+    align-items: center;
+    background-color: #ffffff;
+    cursor: pointer;
+  }
+  .google-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #32127a;
+    color: #ffffff;
+    font-weight: 600;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-radius: 5px;
+    margin-right: 200px;
+    margin-left: 200px;
+  }
+  .login-icon {
+    color: #32127a;
+    font-size: 35px;
+    margin-right: 10px;
+    cursor: pointer;
+  }
+  .g-icon {
+    font-size: 30px;
+    margin-right: 10px;
+    background-color: aliceblue;
+  }
+  .bt-1 {
+    background-color: transparent;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border: none;
+    border: 1px solid #32127a;
+    cursor: pointer;
+  }
+  .div1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 25px;
+  }
+  .p13 {
+    color: black;
+  }
